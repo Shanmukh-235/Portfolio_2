@@ -8,6 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <title>A. Shanmukha Poorna Chand</title>
+    <link rel="icon" href="./assets/logo_Shan.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -20,8 +25,9 @@
             <input type="checkbox" name="check" id="check" />
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
@@ -46,15 +52,86 @@
                 </div>
             </div>
             <div class="image">
-                <img src="assets/profile.jpg" alt="profile" />
+                <img src="assets/logo_Shan.png" alt="profile" />
             </div>
         </div>
     </section>
     <section>
         <div id="about">
-
+            <center>
+                <h1 class="whText" style="font-size: 35px; padding-top: 5vh; padding-bottom: 5vh">
+                    About Me
+                </h1>
+            </center>
+    
+            <div class="container">
+                <div class="image-container">
+                    <img src="./assets/working.jpg" />
+                </div>
+                <div class="text-container">
+                    <p class="whText">
+                        Seeking a Software Developer role to apply my expertise in Java, web technologies, and full-stack development. Passionate about building scalable applications and optimizing systems.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- Skills -->
+    <section id="skills">
+        <div class="skills__container">
+          <h2>My Skills</h2>
+          <div class="skills__grid">
+            <div class="skill__item">
+                <i class="bx bxl-java"></i>
+              <p>Java</p>
+            </div>
+            <!-- <div class="skill__item">
+                <i class="ri-java-line"></i>
+              <p>Java</p>
+            </div> -->
+            <div class="skill__item">
+              <i class="ri-html5-line"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="skill__item">
+              <i class="ri-css3-line"></i>
+              <p>CSS3</p>
+            </div>
+            <div class="skill__item">
+                <i class="ri-bootstrap-line"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="skill__item">
+              <i class="ri-javascript-line"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill__item">
+              <i class="ri-github-line"></i>
+              <p>Github</p>
+            </div>
+            <div class="skill__item">
+                <i class="ri-database-2-line"></i>
+                <p>SQL</p>
+            </div>
+            <div class="skill__item">
+                <i class='bx bxl-mongodb'></i>
+              <p>MongoDB</p>
+            </div>
+            <!-- Add more skills as needed -->
+          </div>
+        </div>
+      </section>
+      
 </body>
-
+<!-- 
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+ -->
 </html>
