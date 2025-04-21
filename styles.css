@@ -181,15 +181,6 @@ ul li a:hover {
   border-radius: 100%;
 }
 
-:root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --extra-light: #faf5ff;
-  --max-width: 1200px;
-}
 
 /* ABOUT SECTION */
 #about {
@@ -258,7 +249,7 @@ ul li a:hover {
   transform: translateY(-8px);
 }
 .skill__item i:hover {
-  color: var(--secondary-color);
+  color: var(--extra-light);
 }
 .skill__item i {
   font-size: 2.5rem;
@@ -270,6 +261,28 @@ ul li a:hover {
   font-weight: 500;
   color: var(--text-dark);
 }
+.footer {
+  background-color:var(--primary-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: var(--extra-light);
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--text-dark); /* Bright green hover */
+}
+.footer__title {
+  font-size: 1.5rem;
+  color: var(--extra-light);
+  margin-bottom: 30px;
+}
+
 /* Responsiveness */
 @media (width < 750px) {
   nav .checkbox {
@@ -292,13 +305,17 @@ ul li a:hover {
     left: 0;
   }
 
+  nav .logo a {
+    font-size: 1.25rem;
+  }
+
   ul li a {
     font-size: 1.25rem;
   }
 
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
-    text-align: center;
+    text-align: justify;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -309,6 +326,15 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+  .container{
+    flex-direction: column;
+    gap: 40px;
+    text-align: justify;
+  }
+  .image-container img {
+    width: 100%;
+    max-width: 250px;
+  }
 }
 @media (width < 500px) {
   .title {
@@ -318,6 +344,10 @@ ul li a:hover {
 
   .description {
     line-height: 1.25rem;
+  }
+  .social-icons a {
+    font-size: 20px;
+    margin: 0 8px;
   }
 }
 @media (width < 400px) {
@@ -342,7 +372,7 @@ ul li a:hover {
   #about .container {
     flex-direction: column;
     gap: 40px;
-    text-align: center;
+    text-align: justify;
   }
 
   #about .image-container img {
