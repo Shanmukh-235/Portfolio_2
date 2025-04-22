@@ -33,9 +33,7 @@ nav {
   background-color: #ffffff;
   z-index: 99;
 }
-h1{
-  color: var(--text-dark);
-}
+
 .nav__content {
   max-width: var(--max-width);
   margin: auto;
@@ -239,6 +237,16 @@ ul li a:hover {
   margin: 0 auto;
 }
 
+.title{
+  color: var(--text-dark);
+}
+
+.descText{
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
 .skill__item {
   background: white;
   border-radius: 12px;
@@ -310,6 +318,7 @@ ul li a:hover {
   nav .logo a {
     font-size: 1.25rem;
   }
+
 
   ul li a {
     font-size: 1.25rem;

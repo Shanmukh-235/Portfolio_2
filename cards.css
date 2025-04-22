@@ -35,7 +35,7 @@
 
 .card-image {
     width: 100%;
-    height: 190px;
+    height: 220px;
     overflow: hidden;
 }
 
@@ -58,11 +58,12 @@
 .cd-content h1 {
     font-size: 1rem;
     margin-bottom: 8px;
+    color: var(--text-dark);
 }
 
 .cd-content p {
     font-size: 0.85rem;
-    color: #555;
+    color: var(--text-light);
     margin-bottom: 5px;
 }
 
