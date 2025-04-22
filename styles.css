@@ -33,7 +33,9 @@ nav {
   background-color: #ffffff;
   z-index: 99;
 }
-
+h1{
+  color: var(--text-dark);
+}
 .nav__content {
   max-width: var(--max-width);
   margin: auto;
@@ -249,7 +251,7 @@ ul li a:hover {
   transform: translateY(-8px);
 }
 .skill__item i:hover {
-  color: var(--extra-light);
+  color: var(--primary-color-dark);
 }
 .skill__item i {
   font-size: 2.5rem;
