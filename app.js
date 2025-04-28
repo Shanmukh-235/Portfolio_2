@@ -2,7 +2,7 @@
 const hireMeBtn = document.getElementById('hireMeBtn');
 const downloadCvBtn = document.getElementById('downloadCvBtn');
 hireMeBtn.addEventListener('click', () => {
-    window.location.href = "mailto:yourmail@example.com"; 
+    window.location.href = "mailto:shanmukhapoornachand14316@gmail.com"; 
 });
 
 downloadCvBtn.addEventListener('click', () => {
