@@ -1,12 +1,4 @@
-:root {
-    --primary-color: #fbbf24;        /* Sand Gold */
-    --primary-color-dark: #f59e0b;   /* Deep Gold */
-    --secondary-color: #ef4444;      /* Sunset Red */
-    --text-dark: #78350f;            /* Warm Brown */
-    --text-light: #d97706;           /* Orange Shade */
-    --extra-light: #fffbeb;           /* Pale Sand */
-    --max-width: 1200px;
-  }
+
      
 #work {
     height: auto;
