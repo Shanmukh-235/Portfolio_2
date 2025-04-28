@@ -1,12 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const pdfUrl = './assets/Shanmukha_poorna_chand.A.pdf';
 
-    document.querySelector('.portfolio').forEach(button => {
-        button.addEventListener('click', () => {
-            window.open(pdfUrl, '_blank');
-        });
-    });
+const hireMeBtn = document.getElementById('hireMeBtn');
+const downloadCvBtn = document.getElementById('downloadCvBtn');
+hireMeBtn.addEventListener('click', () => {
+    window.location.href = "mailto:yourmail@example.com"; 
 });
-document.querySelector('.hire__me').addEventListener('click', () => {
-    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+
+downloadCvBtn.addEventListener('click', () => {
+    window.open('./assets/Shanmukha_Poorna_Chand_A.pdf', '_blank'); 
 });

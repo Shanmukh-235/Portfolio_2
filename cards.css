@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --extra-light: #faf5ff;
-  --max-width: 1200px;
-}
+    --primary-color: #fbbf24;        /* Sand Gold */
+    --primary-color-dark: #f59e0b;   /* Deep Gold */
+    --secondary-color: #ef4444;      /* Sunset Red */
+    --text-dark: #78350f;            /* Warm Brown */
+    --text-light: #d97706;           /* Orange Shade */
+    --extra-light: #fffbeb;           /* Pale Sand */
+    --max-width: 1200px;
+  }
+     
 #work {
     height: auto;
     padding: 40px 0;

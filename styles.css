@@ -167,7 +167,7 @@ ul li a:hover {
 }
 
 .portfolio:hover {
-  background-color: var(--primary-color-dark);
+  background-color: transparent;
   color: #ffffff;
 }
 
