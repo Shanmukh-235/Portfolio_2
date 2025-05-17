@@ -294,6 +294,11 @@ ul li a:hover {
   margin-bottom: 30px;
 }
 
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+ --swiper-theme-color: var(--primary-color);
+}
 /* Responsiveness */
 @media (width < 750px) {
   nav .checkbox {

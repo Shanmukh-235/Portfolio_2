@@ -8,3 +8,4 @@ hireMeBtn.addEventListener('click', () => {
 downloadCvBtn.addEventListener('click', () => {
     window.open('./assets/Shanmukha_Poorna_Chand_A.pdf', '_blank'); 
 });
+
