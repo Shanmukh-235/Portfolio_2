@@ -6,15 +6,6 @@
     text-align: center;
 }
 
-.work__container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
 .card {
     display: flex;
     flex-direction: column;
