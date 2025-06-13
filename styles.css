@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #22c55e;        /* Green */
-  --primary-color-dark: #16a34a;   /* Darker Green */
-  --secondary-color: #a16207;      /* Olive */
-  --text-dark: #1c1917;            /* Dark Brown */
-  --text-light: #78716c;           /* Muted Earth Tone */
-  --extra-light: #fefce8;          /* Light Sand */
+  --primary-color: #22c55e;
+  /* Green */
+  --primary-color-dark: #16a34a;
+  /* Darker Green */
+  --secondary-color: #a16207;
+  /* Olive */
+  --text-dark: #1c1917;
+  /* Dark Brown */
+  --text-light: #78716c;
+  /* Muted Earth Tone */
+  --extra-light: #fefce8;
+  /* Light Sand */
   --max-width: 1200px;
 }
 
@@ -217,6 +223,7 @@ ul li a:hover {
   line-height: 1.6;
   color: var(--text-dark);
 }
+
 /* ------------- skills ----------- */
 #skills {
   padding: 60px 20px;
@@ -238,16 +245,17 @@ ul li a:hover {
   margin: 0 auto;
 }
 
-.title{
+.title {
   color: var(--text-dark);
 }
 
-.descText{
+.descText {
   color: var(--text-light);
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 20px;
 }
+
 .skill__item {
   background: white;
   border-radius: 12px;
@@ -259,9 +267,11 @@ ul li a:hover {
 .skill__item:hover {
   transform: translateY(-8px);
 }
+
 .skill__item i:hover {
   color: var(--primary-color-dark);
 }
+
 .skill__item i {
   font-size: 2.5rem;
   color: var(--primary-color);
@@ -272,8 +282,9 @@ ul li a:hover {
   font-weight: 500;
   color: var(--text-dark);
 }
+
 .footer {
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   padding: 20px 0;
   text-align: center;
 }
@@ -286,8 +297,10 @@ ul li a:hover {
 }
 
 .social-icons a:hover {
-  color: var(--text-dark); /* Bright green hover */
+  color: var(--text-dark);
+  /* Bright green hover */
 }
+
 .footer__title {
   font-size: 1.5rem;
   color: var(--extra-light);
@@ -297,8 +310,9 @@ ul li a:hover {
 .swiper-button-next,
 .swiper-button-prev,
 .swiper-pagination-bullet {
- --swiper-theme-color: var(--primary-color);
+  --swiper-theme-color: var(--primary-color);
 }
+
 /* Responsiveness */
 @media (width < 750px) {
   nav .checkbox {
@@ -343,16 +357,42 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
-  .container{
+
+  .container {
     flex-direction: column;
     gap: 40px;
     text-align: justify;
   }
+
   .image-container img {
     width: 100%;
     max-width: 250px;
   }
+
+  .swiper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center the slides */
+    align-items: center;
+    /* Optional: center vertically */
+  }
+
+  .swiper-slide .card {
+    margin: auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
 }
+
 @media (width < 500px) {
   .title {
     font-size: 2rem;
@@ -362,11 +402,36 @@ ul li a:hover {
   .description {
     line-height: 1.25rem;
   }
+
   .social-icons a {
     font-size: 20px;
     margin: 0 8px;
   }
+
+  .swiper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center the slides */
+    align-items: center;
+    /* Optional: center vertically */
+  }
+
+  .swiper-slide .card {
+    margin: auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
 }
+
 @media (width < 400px) {
   .title {
     font-size: 1.5rem;
@@ -376,7 +441,31 @@ ul li a:hover {
   .description {
     line-height: 1.25rem;
   }
+
+  .swiper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center the slides */
+    align-items: center;
+    /* Optional: center vertically */
+  }
+
+  .swiper-slide .card {
+    margin: auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
 }
+
 @media (width < 350px) {
   .title {
     font-size: 1.25rem;
@@ -386,6 +475,7 @@ ul li a:hover {
   .description {
     line-height: 1.25rem;
   }
+
   #about .container {
     flex-direction: column;
     gap: 40px;
@@ -417,5 +507,28 @@ ul li a:hover {
 
   #skills .skill__item p {
     font-size: 14px;
+  }
+
+  .swiper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    /* Center the slides */
+    align-items: center;
+    /* Optional: center vertically */
+  }
+
+  .swiper-slide .card {
+    margin: auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
   }
 }

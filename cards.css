@@ -66,3 +66,24 @@
 .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
+
+.swiper {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center; /* Center the slides */
+  align-items: center;      /* Optional: center vertically */
+}
+
+.swiper-slide .card {
+  margin: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
