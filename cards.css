@@ -5,6 +5,16 @@
     padding: 40px 0;
     text-align: center;
 }
+.swiper-pagination {
+    position: unset !important;
+    bottom: 10px;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+}
 
 .card {
     display: flex;
